@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Martino Cocino</title>
+        <style></style>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a class="nav" href="index.html">Home</a>
+                <a class="nav" href="about.html">Acerca De</a>
+                <a class="nav" href="contact.html">Contacto</a>
+                <a class="nav" href="sucursales.html">Sucursales</a>
+                <a class="nav" href="register.html">Registrese</a>
+            </nav>
+            <h1>Registrate!</h1>
+        </header>
+        <menu>
+            <h2>Formulario de registro</h2>
+            <br>
+            <form action="show_data.html">
+                <label for="firstname">Nombre: </label> <input type="text" name="firstname" placeholder="Nombre">
+                <label for="lastname">Apellido: </label> <input type="text" name="lastname" placeholder="Apellido"><br><br>
+                <p>Direccion:</p>
+                <label for="street">Calle: </label> <input type="text" name="street" placeholder="Calle">
+                <label for="number">Altura: </label> <input type="number" name="number" placeholder="Altura">
+                <label for="street">Calle: </label> <input type="text" name="street" placeholder="Calle">
+                <label for="city">Ciudad: </label> <input type="text" name="city" placeholder="Ciudad" value="Buenos Aires">
+                <label for="zipcode">Codigo Postal: </label> <input type="number" name="zipcode" placeholder="Codigo postal">
+                <br><br>
+                <label for="tel">Telefono: </label> <input type="tel" name="tel" placeholder="Telefono">
+                <label for="birthdate">Fecha de nacimiento: </label> <input type="date" name="birthdate" placeholder="Fecha de nacimiento">
+                <label for="email">Email: </label> <input type="email" name="email" placeholder="Email">
+                <label for="pwd">Clave: </label> <input type="password" name="pwd" placeholder="Clave">
+                <br><br>
+                <p>Genero:
+                    <input type="radio" name="gender" value="hombre">Hombre
+                    <input type="radio" name="gender" value="mujer">Mujer
+                    <input type="radio" name="gender" value="otro" checked>Otro
+                </p>
+                <p>Conocimientos previos:
+                    <input type="checkbox" name="conocimientos" value="html">HTML
+                    <input type="checkbox" name="conocimientos" value="css">CSS
+                    <input type="checkbox" name="conocimientos" value="bootstrap">Bootstrap
+                    <input type="checkbox" name="conocimientos" value="javascript">JavaScript
+                    <input type="checkbox" name="conocimientos" value="angular">Angular
+                </p>
+                <p>Estudios:
+                    <select name="estudios" id="">
+                        <option value="primario">Primario</option>
+                        <option value="secundario">Secundario</option>
+                        <option value="universitario">Universitario</option>
+                        <option value="otros">Otros</option>
+                    </select>
+                </p>
+                <p> <label for="comentarios"> Comentarios:</label> <br> <textarea name="comentarios" id="comentarios" cols="30" rows="10" placeholder="Ingrese su comentario"></textarea>
+                </p>
+                <input type="submit" value="Enviar">
+            </form>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </menu>
+        <footer>
+            <a href="http://www.facebook.com" target="_blank"><i><img src="https://img.icons8.com/fluent/48/000000/facebook-new.png"/></i></a>
+            <a href="http://www.instagram.com" target="_blank"><i><img src="https://img.icons8.com/bubbles/50/000000/instagram.png"/> </i></a>
+            <a href="http://www.linkedin.com" target="_blank"><i><img src="https://img.icons8.com/color/48/000000/linkedin-circled.png"/> </i></a>
+            <a href="http://www.twitter.com" target="_blank"><i><img src="https://img.icons8.com/bubbles/50/000000/twitter-circled.png"/> </i></a>
+            <a href="http://www.pinterest.com" target="_blank"><i><img src="https://img.icons8.com/officel/50/000000/pinterest.png"/></i></a>
+            <br>
+            <p><b>Derechos reservados</b></p>
+            <br>
+        </footer>
+    </body>
+</html>
